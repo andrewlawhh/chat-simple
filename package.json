@@ -3,6 +3,7 @@
 	"version": "0.0.1",
 	"description": "test",
 	"dependencies": {
+		"localtunnel": "^1.9.0",
 		"socket.io": "^2.1.1"
 	}
 }

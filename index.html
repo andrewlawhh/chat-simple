@@ -29,10 +29,10 @@
     <script>
       $(function () {
         var socket = io();
-
         $('form').submit(function(){
           var messageObject = {id : socket.id, name : $('#n').val(), msg: $('#m').val()};
           socket.emit('chat message', messageObject);
+            $('#m').val('');
           return false;
         });
 
